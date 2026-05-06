@@ -5,7 +5,6 @@
 }
 
 .container{
-    width: 100vh;
     margin: 5px;
     display: flex;
     flex-flow: column wrap;

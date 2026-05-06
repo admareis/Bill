@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bombas Hidráulicas</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    /* NAVBAR */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 40px;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+    }
+    nav .logo { font-weight: bold; font-size: 20px; color: #1a1a2e; }
+    nav ul { list-style: none; display: flex; gap: 24px; }
+    nav ul a { text-decoration: none; color: #333; font-size: 15px; }
+    nav ul a:hover { color: #2563eb; }
+
+    /* HERO */
+    .hero {
+      background: #1e2a3a;
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 { font-size: 42px; margin-bottom: 16px; }
+    .hero p { font-size: 17px; color: #ccc; max-width: 500px; margin: 0 auto; }
+
+    /* SEÇÃO DE PRODUTOS */
+    .produtos {
+      padding: 60px 40px;
+      text-align: center;
+      background: #f5f5f5;
+    }
+    .produtos h2 { font-size: 28px; margin-bottom: 40px; }
+
+    .cards {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 28px 24px;
+      width: 260px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      text-align: left;
+    }
+    .card .tag { font-size: 12px; color: #888; margin-bottom: 8px; }
+    .card h3 { font-size: 20px; margin-bottom: 10px; }
+    .card p { font-size: 14px; color: #666; margin-bottom: 20px; line-height: 1.5; }
+    .card a {
+      display: inline-block;
+      background: #22c55e;
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .card a:hover { background: #16a34a; }
+
+    /* FOOTER */
+    footer {
+      background: #1e2a3a;
+      color: #ccc;
+      text-align: center;
+      padding: 28px 20px;
+      font-size: 14px;
+    }
+    footer .redes { margin-bottom: 10px; }
+    footer .redes a { color: #ccc; text-decoration: none; margin: 0 8px; }
+    footer .redes a:hover { color: #fff; }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">🔧 Logo</div>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Soluções</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Bombas Hidráulicas</h1>
+    <p>Trabalhamos com o que há de mais moderno em sistemas de bombeamento de água.</p>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section class="produtos">
+    <h2>Nossas Soluções</h2>
+    <div class="cards">
+
+      <div class="card">
+        <div class="tag">🔧 Bomba 1</div>
+        <h3>Alta Pressão</h3>
+        <p>Ideal para prédios e sistemas que exigem força total.</p>
+        <a href="#">Saiba Mais</a>
+      </div>
+
+      <div class="card">
+        <div class="tag">🔧 Bomba 2</div>
+        <h3>Submersíveis</h3>
+        <p>Bombas projetadas para trabalhar dentro da água.</p>
+        <a href="#">Saiba Mais</a>
+      </div>
+
+      <div class="card">
+        <div class="tag">🔧 Bomba 3</div>
+        <h3>Manutenção</h3>
+        <p>Suporte técnico especializado para todos os modelos.</p>
+        <a href="#">Saiba Mais</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="redes">
+      Siga nossas redes sociais:
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+    </div>
+    <p>© 2026 Hidráulica Pro Brasil · Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
