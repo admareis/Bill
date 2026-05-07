@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home - Hidráulica Pro Brasil</title>
     <link rel="stylesheet" href="style1.css">
 </head>
-<body>
-    <div class="container">    
+<body>    
+    <div class="container">           
     <header>
         <img src="imagens/Windows.png" alt="logo">
     <nav>
-        <a href="index.html">Home</a>
-        <a href="#">Sobre</a>
-        <a href="#">Contato</a>
+        <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        </ul>
     </nav>
     </header>
-    
+    <hr>  
     <div id="title"><h1>Bombas Hidráulicas</h1></div>
 
     <div id="principal">
@@ -30,37 +32,39 @@
                 <img src="imagens/1.jpg" alt="">
                 <h3>Alta pressão</h3>
                 <p>Ideal para prédios e sistemas que exigem força total</p>
-                <button>Saiba Mais</button>
+                <button onclick="altaPressao()">Saiba Mais</button>
             </div>
             <div class="bombas">
                 <img src="imagens/2.jpg" alt="">
                 <h3>Submersíveis</h3>
                 <p>Bombas projetadas para trabalhar dentro da água</p>
-                <button>Saiba Mais</button>
+                <button onclick="submersivel()">Saiba Mais</button>
             </div>
             <div class="bombas">
                 <img src="imagens/3.jpg" alt="">
                 <h3>Manutenção</h3>
                 <p>Suporte técnico especializado para todos os modelos</p>
-                <button>Saiba Mais</button>
+                <button onclick="manutencao()">Saiba Mais</button>
             </div>            
         </div>
     </section>
 
     <footer>
         <div>
-            <h2>Siga nossas redes sociais</h2>
-            <img src="imagens/Facebook_logo_(square).png" alt="">
-            <img src="imagens/Instagram_icon.png" alt="">
-            <img src="imagens/Youtube_logo.png" alt="">
+            <h4>Siga nossas redes sociais</h4>
+            <div>
+                <img src="imagens/Facebook_logo_(square).png" alt="">
+                <img src="imagens/Instagram_icon.png" alt="">
+                <img src="imagens/Youtube_logo.png" alt="">
+            </div>
         </div>
-
-        <div>
-            <p>Hidráulica Pro Brasil - Todos os direitos reservados</p>
-        </div>
+        <p class="direitos">
+            © 2026 Hidráulica Pro Brasil - Todos os direitos reservados.    
+        </p>
     </footer>
 </div>
     
-</body>
+
 <script src="script.js"></script>
+</body>
 </html>
